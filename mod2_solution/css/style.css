@@ -3,4 +3,8 @@
 }
 h1{
   text-align: center;
+  background-color: aqua;
+}
+div{
+  background-color: silver;
 }
