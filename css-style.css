@@ -1,0 +1,24 @@
+/* we are placing box-sizing property in star property not in body because it will not inherit it and star specify all content in css */
+*{
+  box-sizing: border-box;
+}
+.background{
+  background-color: black;
+  background-image: url(https://cdn.pixabay.com/photo/2018/04/13/21/24/lion-3317670__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background: url(https://cdn.pixabay.com/photo/2018/04/13/21/24/lion-3317670__340.jpg) no-repeat black;You can also do this way */
+}
+#box{
+  /* background-color: blueviolet;   */
+  padding: 10px;
+  border: 10px;
+  margin: 10px 10px 10px 50px;
+  width: 600px;
+  height: 600px;
+  overflow: auto;
+  
+}
+#content{
+  background-color: darkred;
+}
